@@ -22,7 +22,7 @@ $(document).ready(function() {
         else {
         	$("#errors").remove();
         	$("#input-url").html('<div id="input_long">'+jsonString.long_url+'</div>');
-        	$(".shortened-url").html('<a id="shortened" href="'+jsonString.long_url+'">http://bitlydia.com/'+jsonString.short_url+'</a>');
+        	$(".shortened-url").html('<a id="shortened" href="https://bitlydia.herokuapp.com/'+jsonString.short_url+'">https://bitlydia.herokuapp.com/'+jsonString.short_url+'</a>');
         }
 			},
 
