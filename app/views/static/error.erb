@@ -1,0 +1,19 @@
+<div id="form">
+	<form action="/submit" method="post">
+		<input type="text" placeholder="Paste a link here to shorten it!" name="long_url" required>
+		<button class="btn btn-lg outline" type="submit">Submit</button>
+	</form>
+</div>
+
+<div id="urls">
+	<% @urls.each do |x| %>
+	<div id="input-url"><%=x.long_url%></div>
+	<div id="shortened-url">
+		<a id="shortened" href="http://localhost:9393/<%=x.short_url%>">
+			http://localhost:9393/<%=x.short_url%>
+		</a>
+	</div>
+	<%end%>
+</div>
+
+
