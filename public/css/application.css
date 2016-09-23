@@ -14,7 +14,7 @@ img.displayed {
 }
 
 #page-title {
-	text-align: center;
+  text-align: center;
     font-family: "Alegreya Sans",Helvetica,Arial,sans-serif;
     font-size: 50px;
     line-height: 56px;
@@ -24,8 +24,8 @@ img.displayed {
 }
 
 #intro {
-	text-align: center;
-	font-family: "NTR",Helvetica,Arial,sans-serif;
+  text-align: center;
+  font-family: "NTR",Helvetica,Arial,sans-serif;
 }
 
 #form {
@@ -79,13 +79,18 @@ input[type=text] {
 #input-url {
     font-family: "NTR",Helvetica,Arial,sans-serif;
     font-size: 20px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /*display: block;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+
+#input_long {
+  margin-right: auto;
+  margin-left: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 600px;
+  text-overflow: ellipsis;
 }
 
 #shortened {
